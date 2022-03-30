@@ -1,0 +1,62 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.22.18/libexec/bin/yarn.js
+
+PATH: 
+  /Users/lucasfernandes/opt/anaconda3/bin:/Users/lucasfernandes/opt/anaconda3/condabin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/lucasfernandes/.local/bin:/Users/lucasfernandes/.fig/bin:/Users/lucasfernandes/.local/bin:/Users/lucasfernandes/.local/bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.14.2
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: connect ENETUNREACH 104.16.21.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+
+npm manifest: 
+  {
+    "name": "explore-gatsby",
+    "version": "1.0.0",
+    "private": true,
+    "description": "explore-gatsby",
+    "author": "luks3110",
+    "keywords": [
+      "gatsby"
+    ],
+    "scripts": {
+      "develop": "gatsby develop",
+      "start": "gatsby develop",
+      "build": "gatsby build",
+      "serve": "gatsby serve",
+      "clean": "gatsby clean",
+      "typecheck": "tsc --noEmit"
+    },
+    "dependencies": {
+      "babel-plugin-styled-components": "^2.0.6",
+      "gatsby": "^4.10.3",
+      "gatsby-plugin-image": "^2.10.1",
+      "gatsby-plugin-sharp": "^4.10.2",
+      "gatsby-plugin-styled-components": "^5.10.0",
+      "gatsby-source-filesystem": "^4.10.1",
+      "gatsby-transformer-sharp": "^4.10.0",
+      "react": "^17.0.1",
+      "react-dom": "^17.0.1",
+      "styled-components": "^5.3.5"
+    },
+    "devDependencies": {
+      "@types/node": "^17.0.23",
+      "@types/react": "^17.0.43",
+      "@types/react-dom": "^17.0.14",
+      "typescript": "^4.6.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
