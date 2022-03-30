@@ -31,7 +31,7 @@ const Navbar: React.FC = () => {
       </SLeftSide>
       <SRightSide>
         <SNavItem>
-          <a href="http://www.github.com/Luks3110">
+          <a href="https://github.com/Luks3110/reactdevtest-for-explora-login">
             <FaGithub className="text-3xl" />
           </a>
         </SNavItem>
